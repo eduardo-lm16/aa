@@ -1,0 +1,18 @@
+<p>calculadora works!</p>
+<div class="row">
+    <div class="col-md-3">
+        <label class="form">Num 1</label>
+        <input [(ngModel)]="num1" type="number" class="form-control">
+    </div>
+    <div class="col-md-3">
+        <label class="form">Num 2</label>
+        <input [(ngModel)]="num2" type="number" class="form-control">
+    </div>
+    <div class="col-md-3">
+        <button class="btm btm-primary" (click)="somar()">Calcular</button>
+    </div>
+    <div class="col-md-3">
+        <label class="form">Resultado</label>
+        <input [(ngModel)]="resultado" type="number" class="form-control">
+    </div>
+</div>
